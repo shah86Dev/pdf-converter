@@ -1,0 +1,7 @@
+[project]
+name = "tabledrop-backend"
+version = "0.1.0"
+dependencies = ["fastapi", "python-multipart", "pdfplumber", "openpyxl", "uvicorn"]
+
+[tool.uv]
+package = false
