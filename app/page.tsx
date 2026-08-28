@@ -90,6 +90,12 @@ export default function Home() {
           <aside className="flex flex-col gap-4 lg:pt-4"><div className="rounded-2xl border border-border bg-card p-6"><ShieldCheck className="mb-5 text-primary" /><h3 className="font-semibold">Private by design</h3><p className="mt-2 text-sm leading-6 text-muted-foreground">Your file is processed for conversion and never used for training or shared with anyone.</p></div><div className="rounded-2xl bg-primary p-6 text-primary-foreground"><p className="font-mono text-[11px] uppercase tracking-wider opacity-70">How it works</p><ol className="mt-5 flex flex-col gap-4 text-sm"><li className="flex gap-3"><span className="font-mono opacity-60">01</span> Upload a PDF</li><li className="flex gap-3"><span className="font-mono opacity-60">02</span> We extract the data</li><li className="flex gap-3"><span className="font-mono opacity-60">03</span> Download your .xlsx</li></ol></div></aside>
         </div>
       </section>
+      <footer className="border-t border-border px-6 py-6 lg:px-10">
+        <div className="mx-auto flex max-w-6xl flex-col gap-2 text-sm text-muted-foreground sm:flex-row sm:items-center sm:justify-between">
+          <p>© 2026 Shahzaib86Dev. Built for simpler document workflows.</p>
+          <p className="font-mono text-xs uppercase tracking-[0.16em]">Shahzaib PDF to Excel</p>
+        </div>
+      </footer>
     </main>
   )
 }
