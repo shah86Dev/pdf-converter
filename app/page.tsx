@@ -74,7 +74,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-background text-foreground">
       <header className="mx-auto flex max-w-6xl items-center justify-between px-6 py-7 lg:px-10">
-        <div className="flex items-center gap-3"><div className="grid size-9 place-items-center rounded-xl bg-primary text-primary-foreground"><FileSpreadsheet data-icon="inline-start" /></div><span className="font-mono text-sm font-bold tracking-tight">TABLEDROP</span></div>
+        <div className="flex items-center gap-3"><div className="grid size-9 place-items-center rounded-xl bg-primary text-primary-foreground"><FileSpreadsheet data-icon="inline-start" /></div><span className="font-mono text-sm font-bold tracking-tight">SHAHZAIB PDF TO EXCEL</span></div>
         <div className="flex items-center gap-2 text-xs text-muted-foreground"><LockKeyhole data-icon="inline-start" /> Files stay private</div>
       </header>
       <section className="mx-auto max-w-6xl px-6 pb-20 pt-10 lg:px-10 lg:pt-20">
