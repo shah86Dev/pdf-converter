@@ -5,7 +5,8 @@
       "routePrefix": "/api"
     },
     "frontend": {
-      "entrypoint": "frontend"
+      "entrypoint": "frontend",
+      "routePrefix": "/"
     }
   }
 }
